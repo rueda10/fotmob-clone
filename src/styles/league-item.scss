@@ -1,0 +1,22 @@
+.leagueItemContainer {
+  list-style: none;
+  margin-right: 40px;
+
+  .leagueItemLink {
+    text-decoration: none;
+    height: 20px;
+    display: flex;
+    align-items: center;
+
+    .leagueItemLogo {
+      width: 20px;
+      height: 20px;
+    }
+
+    .leagueItemName {
+      color: rgb(51, 51, 51);
+      font-size: 13px;
+      margin-left: 8px;
+    }
+  }
+}

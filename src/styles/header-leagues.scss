@@ -1,0 +1,165 @@
+.headerLeagues {
+  border-left: solid 1px rgb(232, 232, 232);
+  border-right: solid 1px rgb(232, 232, 232);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-align: center;
+  box-shadow: rgb(232, 232, 232) 0px 1px 0px 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgb(255, 255, 255);
+
+  ul {
+    display: flex;
+    width: 100%;
+    height: 20px;
+    padding: 0;
+    overflow-y: hidden;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    white-space: nowrap;
+  }
+
+  .allLeaguesButton {
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    width: 100px;
+    color: rgb(0, 152, 95);
+    font-size: 12px;
+  }
+}
+
+.headerLeaguesDisplay {
+  height: 60px;
+  opacity: 1;
+
+  animation: fadeIn ease .5s;
+  -webkit-animation: fadeIn ease .5s;
+  -moz-animation: fadeIn ease .5s;
+  -o-animation: fadeIn ease .5s;
+  -ms-animation: fadeIn ease .5s;
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      height: 10px;
+    }
+    100% {
+      opacity: 1;
+      height: 60px;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+      height: 10px;
+    }
+    100% {
+      opacity: 1;
+      height: 60px;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+      height: 10px;
+    }
+    100% {
+      opacity: 1;
+      height: 60px;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+      height: 10px;
+    }
+    100% {
+      opacity: 1;
+      height: 60px;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+      height: 10px;
+    }
+    100% {
+      opacity: 1;
+      height: 60px;
+    }
+  }
+}
+
+.headerLeaguesHidden {
+  opacity: 0;
+  height: 0;
+
+  animation: fadeOut ease .5s;
+  -webkit-animation: fadeOut ease .5s;
+  -moz-animation: fadeOut ease .5s;
+  -o-animation: fadeOut ease .5s;
+  -ms-animation: fadeOut ease .5s;
+
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+      height: 60px;
+    }
+    100% {
+      opacity: 0;
+      height: 10px;
+    }
+  }
+
+  @-moz-keyframes fadeOut {
+    0% {
+      opacity: 1;
+      height: 60px;
+    }
+    100% {
+      opacity: 0;
+      height: 10px;
+    }
+  }
+
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity: 1;
+      height: 60px;
+    }
+    100% {
+      opacity: 0;
+      height: 10px;
+    }
+  }
+
+  @-o-keyframes fadeOut {
+    0% {
+      opacity: 1;
+      height: 60px;
+    }
+    100% {
+      opacity: 0;
+      height: 10px;
+    }
+  }
+
+  @-ms-keyframes fadeOut {
+    0% {
+      opacity: 1;
+      height: 60px;
+    }
+    100% {
+      opacity: 0;
+      height: 10px;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.contentContainer {
+  display: flex;
+  flex: 1;
+  border-left: solid 1px rgb(232, 232, 232);
+  border-right: solid 1px rgb(232, 232, 232);
+  flex-flow: column nowrap;
+}
